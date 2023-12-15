@@ -1,11 +1,12 @@
 import cv2
 import sys
-import cutpaste
+import cutpaste.cutprof
+import cutpaste.pasteprof
 
 
-n = cutpaste.cut(sys.argv[1])
+n = cutpaste.cutprof.cutf(sys.argv[1])
 
-m = cutpaste.paste(n)
+m = cutpaste.pasteprof.pastef(n)
 
 cv2.imwrite('PassportResult.jpg', m)
 cv2.imshow('img', m)
