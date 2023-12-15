@@ -1,0 +1,1 @@
+### install pillow before starting program!!
