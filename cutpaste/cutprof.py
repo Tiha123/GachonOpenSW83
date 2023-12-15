@@ -1,7 +1,7 @@
 import cv2
 
 def cutf(image_path, output_path):
-    cascade = cv2.CascadeClassifier('/Users/hyobin/Desktop/pythonProject2/team83/cutpaste/haarcascade_frontalface_default.xml')
+    cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
     img = cv2.imread(image_path)
     cv2.imshow("origgin",img)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

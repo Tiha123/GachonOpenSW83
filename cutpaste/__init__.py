@@ -1,2 +1,2 @@
-__all__=['cut','paste']
-from .pasteprof import paste
+__all__=['cutf','pastef']
+from .pasteprof import pastef
