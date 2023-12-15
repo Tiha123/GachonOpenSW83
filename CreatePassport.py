@@ -1,9 +1,13 @@
 import cv2
-import os
-from cutpaste.pasteprof import pastef
-from cutpaste.cutprof import cutf
+import sys
+import cutpaste.cutprof
+import cutpaste.pasteprof
 
 
-cutf("asian.jpg","profile.jpg")
+n = cutpaste.cutprof.cutf(sys.argv[1])
 
-pastef("./profile.jpg", "passport.png","./result.png")
+m = cutpaste.pasteprof.pastef(n)
+
+cv2.imwrite('./PassportResult.jpg', m)
+cv2.imshow('img', m)
+cv2.waitKey()
