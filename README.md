@@ -1,5 +1,6 @@
-# Gachon Opensource SW Term Project
-#### Team83
+# Gachon Opensource SW Term Project  
+
+#### Team83  
 
 ## Automated Passport profile picture
 ---
@@ -25,5 +26,5 @@ cutpaste, included in project
 
 ## Reference
 
-[Face Cropping](https://medium.com/@vabhinav991222/face-detection-and-cropping-using-opencv-in-python-ac5f51767878)
+[Face Cropping](https://medium.com/@vabhinav991222/face-detection-and-cropping-using-opencv-in-python-ac5f51767878)  
 [Paste Image](https://datahacker.rs/012-blending-and-pasting-images-using-opencv/#Overlaying-Without-Blending---pasting)
